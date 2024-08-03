@@ -53,6 +53,8 @@ For more help, check out [the Rojo documentation](https://rojo.space/docs).
 **Please write UI components as [Hoarcekat stories](https://github.com/Kampfkarren/hoarcekat).**
 Example:
 ```luau
+-- src/ui/<component name>.story.luau
+
 local Fusion = require(game.ReplicatedStorage.Packages.Fusion)
 local New = Fusion.New
 -- ...
